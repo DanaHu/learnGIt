@@ -5,3 +5,4 @@ git status
 git diff + textname
 git checkout -- filename git add 之前
 git reset HEAD filename git add 之後 git commit之前
+git reset --hard HEAD^  版本回退
