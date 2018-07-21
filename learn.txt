@@ -1,3 +1,4 @@
 ﻿i want to learn git 
 git is free softwore
 git is so cool
+git has a mutable index called stage
