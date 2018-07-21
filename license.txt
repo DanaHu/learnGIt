@@ -3,3 +3,4 @@ git add + textname
 git commit -m "descbrition"
 git status 
 git diff + textname
+git checkout -- filename （回退到最後一次git add 和 git commit） 
