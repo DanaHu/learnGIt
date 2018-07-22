@@ -5,3 +5,4 @@ git has a mutable index called stage
 git tracks changes
 create a new branch is queck
 merge is also queck
+creating a new branch is queck and simple
