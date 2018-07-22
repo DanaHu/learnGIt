@@ -14,6 +14,7 @@ git checkout branchname 切换分支
 git checkout -b branchname 创建并切换到分支
 git merge branchname 合并某分支到当前分支 不可看出merge进程仅为提交模式
 git branch -d branchname 刪除分支
+git branch -D branchname  强行删除分支
 git log --graph 查看分支合并图
 git merge --no-ff -m "" branchname 禁用fast模式 采用 git log 可以看出merge过程
 bug分支
