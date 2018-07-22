@@ -8,3 +8,9 @@ git reset HEAD filename git add 之後 git commit之前
 git reset --hard commitid  版本回退 HEAD 也可以HEAD^^ commitid也可以（前几位）
 git log 查看git提交历史
 git reflog 查看git命令历史
+git branch 查看分支
+git branch branchname 创建分支
+git checkout branchname 切换分支
+git checkout -b branchname 创建并切换到分支
+git merge branchname 合并某分支到当前分支
+git branch -d branchname 刪除分支
