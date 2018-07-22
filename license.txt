@@ -23,3 +23,9 @@ git stash list 查看stash内容列表
 git stash apply stash@{0} 恢复并不删除此条stash
 git stash drop stash@{0} 删除所选stash
 git stash pop stash@{0} 恢复并且删除此条stash
+多人模式
+git push origin branchname 推送自己的修改
+git pull 推送失敗之後可以試圖進行合并更新
+git pull 时 notracking information 可以使用git branch --set-upstream to=origin/<branch> branchname 进行本地分支和远程分支链接
+如果有冲突 解决冲突 本地提交 
+解决掉冲突之后git push origin branchname 重新推送修改
