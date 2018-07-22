@@ -16,3 +16,9 @@ git merge branchname 合并某分支到当前分支 不可看出merge进程仅�
 git branch -d branchname 刪除分支
 git log --graph 查看分支合并图
 git merge --no-ff -m "" branchname 禁用fast模式 采用 git log 可以看出merge过程
+bug分支
+git stash 将工作现场存储
+git stash list 查看stash内容列表
+git stash apply stash@{0} 恢复并不删除此条stash
+git stash drop stash@{0} 删除所选stash
+git stash pop stash@{0} 恢复并且删除此条stash
