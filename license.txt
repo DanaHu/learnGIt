@@ -29,3 +29,12 @@ git pull 推送失敗之後可以試圖進行合并更新
 git pull 时 notracking information 可以使用git branch --set-upstream to=origin/<branch> branchname 进行本地分支和远程分支链接
 如果有冲突 解决冲突 本地提交 
 解决掉冲突之后git push origin branchname 重新推送修改
+标签 
+git tag tagname commitid (默认为HEAD)
+git tag 标签列表
+git show tagname 查看对应标签的详细信息
+git tag -a tagname -m “描述信息” commit id 
+git tag -d tagname  删除标签
+git push origin tagname 推送某个标签到远程
+git push origin --tags 一次性推送到远程所有尚未推送的标签
+git push origin ： refs/tags/<tagname>删除远程标签
