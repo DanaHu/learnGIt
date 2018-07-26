@@ -1,0 +1,30 @@
+﻿bin 目录包含mvn运行脚本
+boot 类加载器
+conf 配置文件
+lib maven运行时候依赖类库
+pom文件 
+groupId 项目包名 公司网址的反写+项目名称
+artifactId 模块名称 项目名称+模块名称
+version 版本名称
+dependencies 依赖包
+denpendency
+mvn compile对项目进行编译
+mvn test 测试
+mvn package 打成jar包
+mvn clean 清理target文件
+mvn install 将本地文件放进仓库中 
+mvn archetype:generate 按照提示进行 项目搭建 
+setting文件 配置镜像仓库
+mirrorOf标签里是仓库名称 也可以用*来代替所有仓库
+maven 生命周期 clean default compile test package install site 生成项目站点
+exclusion标签删除依赖
+不知道groupid artifactid可以去maven-repository查询
+依赖jar包冲突
+短路优先 
+路径相同 先声明优先
+聚合（讲几个项目一起打包安装） 新建项目 pom文件
+packaging 改为pom 
+增加
+<modules>
+<module></module>
+module
